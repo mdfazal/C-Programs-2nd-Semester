@@ -1,3 +1,5 @@
+/*Write a program to input temperatures in Celsius and Fahrenheit scale and convert the Temperatures to other scale.Display the results.*/
+
 #include<stdio.h>
 int main()
 {
