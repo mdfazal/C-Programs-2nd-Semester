@@ -11,6 +11,5 @@ int main()
 	rent = 0.2*bs;
 	gs=(bs+da+rent); /*gross salary = sum of basic & all allowances*/
 	printf("the gross salary is %f \n",gs);
-	//return 0;
 }
 
