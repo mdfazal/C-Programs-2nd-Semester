@@ -5,4 +5,37 @@ other variable. Finally, print the value of all the variables to ensure that the
 has taken place.*/
 
 
-
+#include <stdio.h>
+main()
+{
+	int a,b,c;
+	int max=0;
+	int min=0;
+	printf("Enter 3 numbers");
+	scanf("%d%d%d", &a,&b,&c);
+	if(a>b && a>c)
+	{
+		max=a;
+		if(b>c)
+		{
+			min=c;
+		}
+	}
+	else if(b>a && b>c)
+	{
+		max=b;
+		if(a>c)
+		{
+			min=c;
+		}
+	}
+	else if(c>a && c>b)
+	{
+		max=c;
+		if(b>a)
+		{
+			min=a;
+		}
+	}
+	printf("\nMaximum number is %d", max);
+	printf("\nMinimum number is %d",min);
