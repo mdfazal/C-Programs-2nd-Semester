@@ -9,10 +9,10 @@ main()
 	char ch;
 	printf("enter 2 numbers");
 	scanf("%lf,%lf",&a,&b);
-	printf("Enter 1 to add");
-	printf("Enter 2 to subtract");
-	printf("Enter 3 to multiply");
-	printf("Enter 4 to divide");
+	printf("Enter 1 to add\n");
+	printf("Enter 2 to subtract\n");
+	printf("Enter 3 to multiply\n");
+	printf("Enter 4 to divide\n");
 	switch(ch)
 	{
 		case 1:
