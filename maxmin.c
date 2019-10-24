@@ -39,3 +39,10 @@ main()
 	}
 	printf("\nMaximum number is %d", max);
 	printf("\nMinimum number is %d",min);
+	max=max+min;
+	min=max-min;
+	max=max-min;
+	printf("\nAfater swapping Maximum number is %d", max);
+	printf("\nAfter swapping Minimum number is %d", min);
+}
+
