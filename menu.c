@@ -13,6 +13,8 @@ main()
 	printf("Enter 2 to subtract\n");
 	printf("Enter 3 to multiply\n");
 	printf("Enter 4 to divide\n");
+	printf("enter your choice\n");
+	scanf("%c",&ch);
 	switch(ch)
 	{
 		case 1:
