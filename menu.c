@@ -15,22 +15,22 @@ main()
 	printf("Enter 4 to divide");
 	switch(ch)
 	{
-		case:1
+		case 1:
 		add = a+b;
 		printf("Sum is %lf",add);
 		break;
 		
-		case:2
+		case 2:
 		sub = a-b;
 		printf("difference is %lf",sub);
 		break;
 	
-		case:3
+		case 3:
 		mul = a*b;
 		printf("product is %lf",div);
 		break;
 		
-		case:4
+		case 4:
 		div=a/b;
 		printf("division is %lf",div);
 		break;
@@ -39,5 +39,6 @@ main()
 		printf("Please enter number between 1-4");
 		
 	}
+}
 
 		
