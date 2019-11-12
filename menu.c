@@ -32,9 +32,8 @@ main()
 		printf("product is %lf",div);
 		break;
 		
-		case 4:
-		div=a/b;
-		printf
+		
+		
 		
 		
 	}
