@@ -38,7 +38,7 @@ main()
 		break;
 	
 		default:
-		printf("Please enter number between 1-4");
+		
 		
 	}
 }
