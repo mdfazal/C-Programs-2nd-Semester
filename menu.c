@@ -37,7 +37,6 @@ main()
 		printf("division is %lf",div);
 		break;
 	
-		default:
 		
 		
 	}
