@@ -29,8 +29,7 @@ main()
 	
 		case 3:
 		mul = a*b;
-		printf("product is %lf",div);
-		break;
+		
 		
 		
 		
