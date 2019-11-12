@@ -34,8 +34,7 @@ main()
 		
 		case 4:
 		div=a/b;
-		printf("division is %lf",div);
-		
+		printf
 		
 		
 	}
